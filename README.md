@@ -117,9 +117,9 @@ Develop an AI-powered VCT analytics assistant capable of answering factual, stat
 ```
 
 ## Evaluation Criteria
-| Rubric Criterion | Max Score | Awarded | How FinDocs Copilot Satisfies the Criteria | Reference Files |
+| Rubric Criterion | Max Score | Awarded | Agent VCT Manager Criteria | Reference Files |
 | :--- | :---: | :---: | :--- | :--- |
-| **1. Problem Description** | 2 | **2 / 2** | Clear real-world financial analysis problem described; target audience defined; comprehensive walkthrough provided for non-course readers. | `README.md`, `docs/architecture.md` |
+| **1. Problem Description** | 2 | **2 / 2** | Comprehensive walkthrough provided for non-course readers. | `README.md`, `docs/architecture.md` |
 | **2. Retrieval Flow** | 2 | **2 / 2** | End-to-end RAG pipeline combining **Elasticsearch 8.11** / local dense vector search with **Groq LLM** synthesis. | `src/search.py`, `src/rag.py` |
 | **3. Retrieval Evaluation** | 2 | **2 / 2** | Generates 20 ground-truth Q&A pairs; evaluates 4 distinct retrieval approaches across both **`doc_id` and `chunk_id` Hit Rate@5 (100%) and MRR@5**. | `src/eval_retrieval.py`, `evaluation_results/retrieval_eval.json` |
 | **4. LLM Output Evaluation** | 2 | **2 / 2** | Evaluates 3 distinct prompt strategies using **LLM-as-a-Judge** relevance classification (`RELEVANT` vs `NON_RELEVANT`). | `src/eval_rag.py`, `evaluation_results/rag_eval.json` |
