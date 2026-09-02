@@ -133,4 +133,7 @@ Develop an AI-powered VCT analytics assistant capable of answering factual, stat
 | **Bonus 2: Extra Engineering** | +3 | **+3 / 3** | Awarded for: (1) **Multimodal Audio Executive Briefings**, (2) **Automated PyTest Unit Test Suite (`tests/`) & GitHub Actions CI/CD**, and (3) **1-Click Makefile Automation**. | `app.py`, `tests/`, `Makefile`, `.github/workflows/ci_cd.yml` |
 | **TOTAL CAPSTONE SCORE** | **20** | **25 / 20** | *Exceeds 100% of standard (20/20) and bonus (5/5) evaluation criteria.* | |
 
-## 
+## Tech stack
+
+## Quick Start
+
